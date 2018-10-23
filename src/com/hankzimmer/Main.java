@@ -5,8 +5,8 @@ public class Main {
     private static final String INVALID_VALUE_MESSAGE = "Invalid value";
 
     public static void main(String[] args) {
-        System.out.println(getDurationString(65, 45));
-        System.out.println(getDurationString(20000L));
+        System.out.println(getDurationString(65, 46));
+        System.out.println(getDurationString(20100L));
     }
 
     private static String getDurationString(long minutes, long seconds) {
